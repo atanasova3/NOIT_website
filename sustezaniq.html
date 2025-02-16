@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Състезания</title>
+          <link rel="stylesheet" href="stylesustezaniq.css">
+          
+     </head>
+     <body>  
+          
+         <div class="header">
+            <h1>Състезания</h1>
+        </div>
+            <label for="category">Предмети:</label>
+            <select id="category">
+               <option value="all">Всички</option>  
+               <option value="1">Математика</option>
+               <option value="bel">Български език</option>
+               <option value="ang">Английски език</option>
+            </select>
+        
+            <label for="etap">Етап:</label>
+            <select id="etap">
+                <option value="all">Всички</option>
+                <option value="1">Начален етап</option>
+                <option value="2">Прогимназиален етап</option>
+                <option value="3">Гимназиален етап</option>
+            </select>
+        
+            <button onclick="filterItems()">Search</button>
+        
+            <div id="items">
+                <div class="item" data-category="1" data-price="1" value = "1">
+                  <a href="matematika.html">Математика</a>
+                </div>
+                <div class="item" data-category="bel" data-price="high">
+                    <a href="bel.html">Български език</a> </div>
+                    <div class="item" data-category="ang" data-price="low">
+                        <a href="ang.html">Английски език</a>
+                      </div>
+            </div>
+            
+            
+              <script src="script.js"></script>
+    </body>
+</html>

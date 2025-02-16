@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f9; 
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styling */
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: #0047ab;
+  color: #fdb62f;
+  font-size: 28px;
+  color: #fdb62f;
+}
+
+/* Main heading (Title) styling */
+h1 {
+  font-size: 48px;
+  color: #fdb62f;
+  
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase; 
+}
+
+/* Style for the main content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content-box {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+
+a {
+  color:hsl(194, 39%, 49%) ;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: hsl(194, 39%, 49%); 
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Footer text */
+footer p {
+  font-size: 16px;
+}
+title {
+  color :black;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  display: block; /* Make links behave like block elements */
+}
+
+.item:hover {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.item.hide {
+  display: none; /* Hide items that don't match the filter */
+}
